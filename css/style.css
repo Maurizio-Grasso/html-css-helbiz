@@ -125,6 +125,40 @@ div#header-bottom .jumbo-text {
   color: white;
 }
 
-main {
-  min-height: 200vw;
+/* Feautred Products Section */
+
+#featured-products .product-outer {
+  background-color: #fafafa;
+  text-align: center;
+}
+
+#featured-products .product-outer img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+#featured-products .product-outer a {
+  color: blue;
+}
+
+/* Smartphone Section */
+
+.inner-section {
+  background-image: url("../img/HelbizBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 600px;
+  padding-top: 300px;
+}
+
+.inner-section > div {
+  text-align: center;
+}
+
+.inner-section > div img {
+  max-width: 400px;
+}
+
+.inner-section .hide-on-mobile {
+  padding-top: 400px
 }
