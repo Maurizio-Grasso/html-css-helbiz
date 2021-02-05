@@ -1,0 +1,130 @@
+
+/* Integrazioni Framework */
+
+@media screen and (max-width: 992px) {
+.hide-on-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 993px) {
+.hide-on-desktop {
+    display: none;
+  }
+}
+
+.padding-top-standard {
+  padding-top: 15px;
+}
+.padding-bottom-standard {
+  padding-bottom: 15px;
+}
+
+/* Reset and Defaults */
+
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Menu */
+
+ul.inline-menu li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+ul.inline-menu li:not(:last-child) {
+  margin-right:15px;
+}
+
+/* Typography */
+
+p {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+/* Header */
+
+.header-lang-menu ul li:not(:last-child) a {
+  border-right: 1px solid black;
+  padding-right: 15px;
+}
+
+header #header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 42;
+  height: 80px;
+  background-color: white;
+}
+
+header #header-top nav ,
+#hamburger-icon {
+line-height: 80px;
+}
+
+#hamburger-icon {
+  font-size: 40px;
+}
+
+header #header-top .outer-logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header #header-top .outer-logo img {
+  height: 30px;
+}
+
+div#header-bottom {
+  margin-top: 80px;
+  background-image: url("../img/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+div.jumbo {
+  position: relative;
+  height: 400px;
+}
+
+div#header-bottom .jumbo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+  color: white;
+}
+
+main {
+  min-height: 200vw;
+}
